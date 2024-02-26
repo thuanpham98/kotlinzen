@@ -50,6 +50,7 @@ dependencies {
   implementation("io.vertx:vertx-config:4.5.3")
   testImplementation("io.vertx:vertx-junit5")
   testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
+  implementation("org.hibernate.reactive:hibernate-reactive-core:2.2.2.Final")
 }
 
 val compileKotlin: KotlinCompile by tasks
